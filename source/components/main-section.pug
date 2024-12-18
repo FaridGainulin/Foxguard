@@ -1,0 +1,26 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      h1.main-section__title.font-s-55.text-up
+        span.color-green Откройте 
+        | свой бизнес 
+        br
+        | в сфере услуг
+      img.main-section__icon(src="images/main-section-icon.svg" loading="lazy" width="207" height="8" alt="icon")
+      .main-section__sub-title.font-s-26
+        | в области охраны труда, пожарной и экологической 
+        br.no-br
+        | безопасности, аудита и консалтинга
+      .gradient-wrapper
+        .main-section__bottom
+          span.font-s-20
+            | Получите подробный договор сотрудничества и узнайте, 
+            br.no-br
+            | как стать партнером франшизы
+          form.main-section__form(data-feedback-form)
+            input(type="text" name="honeyfield" class="honeypot" style="display:none")
+            input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+            input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+            button.btn(type="submit") ПОЛУЧИТЬ
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1964" height="1748" alt="image")

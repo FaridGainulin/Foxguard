@@ -1,0 +1,20 @@
+section.city-section
+  .wrapper
+    .city-section__container
+      h2.city-section__title.font-s-55.text-up
+        | Станьте партнером 
+        br
+        | франшизы 
+        span.color-green «Фоксгард»
+      .city-section__sub-title.font-s-26
+        | и получайте от 100 000 рублей чистой прибыли 
+        br.no-br
+        | ежемесячно
+      .gradient-wrapper
+        .city-section__bottom
+          span.font-s-20-a Проверьте, свободен ли ваш город для запуска
+          form.city-section__form(data-feedback-form)
+            input(type="text" name="honeyfield" class="honeypot" style="display:none")
+            input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+            input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+            button.btn(type="submit") Проверить

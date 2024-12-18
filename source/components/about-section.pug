@@ -1,0 +1,39 @@
+section.about-section
+  .wrapper
+    .about-section__container
+      h2.about-section__title.font-s-42.text-up Подробнее о компании
+      .about-section__text
+        span.font-s-24
+          | Компания «Фоксгард» была основана в 2020 году. Мы сосредоточились на предоставлении 
+          br.no-br
+          | предпринимателям и организациям широкого спектра услуг в области охраны труда, пожарной и 
+          br.no-br
+          | экологической безопасности, аудита и консалтинга.
+        span.font-s-24
+          | За 4 года работы мы получили большое количество постоянных клиентов, а также заключили более 
+          br.no-br
+          | 600 закрытых госконтрактов. Благодаря работе по принципу «одного окна», заказчики получают 
+          br.no-br
+          | полный спектр услуг и могут безопасно заниматься ростом и развитием своего бизнеса, не вникая в 
+          br.no-br
+          | отслеживание всех изменений в законодательстве.
+        span.font-s-24
+          | Запуская собственную компанию в сфере аутсорсинга по франшизе «Фоксгард», вы получаете 
+          br.no-br
+          | возможность быстро зайти на рынок и стать одним из его лидеров. Наша команда будет помогать вам 
+          br.no-br
+          | на всех этапах, пошагово выстраивая ключевые процессы.
+      .about-section__bottom
+        .about-section__bottom-text
+          span.font-s-18 Напишите нам!
+          span.font-s-32.text-up
+            | Будем рады ответить 
+            br
+            | на все ваши вопросы!
+        .about-section__bottom-feedback
+          form.about-section__form(data-feedback-form)
+            textarea.input.input--secondary.input--textarea(type="text" name="answer" autocomplete="off" placeholder="Ваш вопрос")
+            input(type="text" name="honeyfield" class="honeypot" style="display:none")
+            input.input.input--secondary(type="text" name="name" autocomplete="off" placeholder="Ваше имя")
+            input.input.input--secondary(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+            button.btn.btn--secondary(type="submit") Задать вопрос

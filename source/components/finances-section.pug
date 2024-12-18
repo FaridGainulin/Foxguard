@@ -1,0 +1,55 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      img.finances-section__img-bg(src="images/finances-section-img-bg.png" loading="lazy" width="1210" height="1074" alt="image")
+      h2.finances-section__title.font-s-40-a.text-up
+        | Зарабатывайте от 100 000 рублей на услугах, 
+        br.no-br
+        | которые нужны тысячам предприятий
+      .swiper-bullet
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card-wrapper.swiper-slide
+            .finances-section__card
+              img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="58" height="58" alt="icon")
+              span.font-w-bold.font-s-24-a 27 дней
+              span.font-s-16-a понадобится <br> на запуск компании
+          .finances-section__card-wrapper.swiper-slide
+            .finances-section__card
+              img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="58" height="58" alt="icon")
+              span.font-w-bold.font-s-24-a 30,2%
+              span.font-s-16-a рентабельность <br> по чистой прибыли
+          .finances-section__card-wrapper.swiper-slide
+            .finances-section__card
+              img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="58" height="58" alt="icon")
+              span.font-w-bold.font-s-24-a 335 000 рублей
+              span.font-s-16-a средний размер <br> ежемесячной выручки
+          .finances-section__card-wrapper.swiper-slide
+            .finances-section__card
+              img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="58" height="58" alt="icon")
+              span.font-w-bold.font-s-24-a 15 месяцев
+              span.font-s-16-a средний срок <br> окупаемости
+          .finances-section__card-wrapper.swiper-slide
+            .finances-section__card
+              img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="58" height="58" alt="icon")
+              span.font-w-bold.font-s-24-a 725 000 рублей
+              span.font-s-16-a средний размер <br> инвестиций
+          .finances-section__card-wrapper.swiper-slide
+            .finances-section__card
+              img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="58" height="58" alt="icon")
+              span.font-w-bold.font-s-24-a 100 000 рублей
+              span.font-s-16-a средний размер <br> ежемесячной прибыли
+        .bullet-pagination.bullet-pagination--left
+      .finances-section__text.font-s-26
+        | Хотите получить детальные 
+        br
+        | цифры и расчеты?
+      .finances-section__bottom-wrapper
+        .finances-section__bottom
+          img.finances-section__bottom-img(src="images/finances-section-bottom-img.png" loading="lazy" width="886" height="400" alt="image")
+          span.finances-section__bottom-title.font-s-20-a.gradient-text-stroke(data-text="Скачайте финансовую модель «Фоксгард»") Скачайте финансовую модель «Фоксгард»
+          form.finances-section__form(data-feedback-form)
+            input(type="text" name="honeyfield" class="honeypot" style="display:none")
+            input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+            input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+            .finances-section__btn-wrapper
+              button.btn.btn--stroke(type="submit") Скачать
